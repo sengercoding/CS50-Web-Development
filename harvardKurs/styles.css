@@ -1,0 +1,41 @@
+#main {
+    padding: 400px;
+    margin: 10px;
+    size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+input[type=text] {
+    width: 600px;
+    box-sizing: border-box;
+    font-size: 40;
+    padding: 40px;
+    margin: 10px 10px;
+    border: 2px solid black;
+    /*box-shadow: 0 0 15px 4px rgba(148, 104, 104, 0.959);*/
+    border-radius: 10px;
+}
+
+#ad {
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+#pic {
+    position:absolute;
+    top: 0;
+    right: 200px;
+}
+
+button {
+    margin: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 50;
+    border-radius: 5px;
+}
